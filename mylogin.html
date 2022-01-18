@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>
+		my login
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="mylogin1.css">
+
+</head>
+	
+<body>
+
+<div class="container">
+	<div class="form-box">
+		<div class="button-box">
+     		<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="login()">login</button>
+			<button type="button" class="toggle-btn" onclick="signup()">signup</button>
+			
+		</div>
+		
+	
+	<div class ="social-media">
+	 <img src="fb.png">
+	 <img src="insta.jpg">
+	  <img src="twitter.png">
+	 
+	</div>
+
+	<form class="login-form" id="login" >
+		
+		
+	   <input type="text" class="form-field" placeholder="username" required>
+	   
+ 	   <input type="password" class="form-field" placeholder="password" required>
+ 	   
+	   <input type="checkbox" class ="checkbox"><span id="spa">remember password</span>
+<button type= "submit" class="submit">login</button>
+	
+		<span class="spa1">forget password?</span>	
+ </form>
+  
+
+	<form class="login-form" id="signup" >
+		
+		
+	   <input type="text" class="form-field" placeholder="username" required>
+	   <input type="email" class ="form-field" placeholder="email address" required>
+	   
+ 	   <input type="password" class="form-field" placeholder="password" required>
+ 	   
+	   <input type="checkbox" class ="checkbox"><span> I Accept to the Term & Condition</span>
+		<button type= "submit" class="submit">signup</button>	
+    </form> 
+    </div>
+ </div>  
+ 
+  <script>
+  	
+  	var x = document.getElementById("login");
+  	var y = document.getElementById("signup");
+  	var z = document.getElementById("btn");
+
+  	function signup() {
+  		x.style.left = " 250px ";
+  		y.style.left = " 600px ";
+  	    z.style.left = " 110px ";
+  				
+  	}
+
+
+  	function login() {
+  		x.style.left = "600px ";
+  		y.style.left = " 950px ";
+  	    z.style.left = " 0px ";
+  				
+  	}
+
+  </script>
+
+
+</body> 
+
+
+</html>
