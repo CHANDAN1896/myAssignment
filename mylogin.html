@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" type="text/css" href="mylogin1.css">
 
+
+
 </head>
 	
 <body>
@@ -27,6 +29,8 @@
 	 
 	</div>
 
+	<div>
+	
 	<form class="login-form" id="login" >
 		
 		
@@ -50,32 +54,47 @@
  	   <input type="password" class="form-field" placeholder="password" required>
  	   
 	   <input type="checkbox" class ="checkbox"><span> I Accept to the Term & Condition</span>
-		<button type= "submit" class="submit">signup</button>	
-    </form> 
-    </div>
- </div>  
- 
-  <script>
+<button type= "submit" class="submit">signup</button>	
+    </form>
+
+    
+  </div>
+  </div>  
+  </div>
+  
+
+	  <script>
   	
   	var x = document.getElementById("login");
   	var y = document.getElementById("signup");
   	var z = document.getElementById("btn");
 
+
+
   	function signup() {
-  		x.style.left = " 250px ";
+  		x.style.left = " 950px ";
   		y.style.left = " 600px ";
   	    z.style.left = " 110px ";
+  	    y.style.display="inline";
+  	    x.style.display="none";
+
+
   				
   	}
 
 
   	function login() {
   		x.style.left = "600px ";
-  		y.style.left = " 950px ";
+  		y.style.left = " 250x ";
   	    z.style.left = " 0px ";
-  				
-  	}
+  	    y.style.display="none";
+  	    x.style.display="inline";
+  	    
 
+  	    }
+
+  	
+  	   
   </script>
 
 

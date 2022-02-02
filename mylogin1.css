@@ -13,7 +13,6 @@
     background-position: center;	
     background-size: cover;
     position: absolute;
-    overflow: hidden;
 }
 .form-box{
 	width: 350px;
@@ -133,4 +132,5 @@ position: relative;
 #signup
 {
 	left: 950px;
+	display: none;
 }
